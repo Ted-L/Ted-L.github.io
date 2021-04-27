@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>work on Ted L&#39;s blog</title>
+    <link>https://Ted-L.github.io/en/categories/work/</link>
+    <description>Recent content in work on Ted L&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>tedliuzy@hotmail.com (TED LZY)</managingEditor>
+    <webMaster>tedliuzy@hotmail.com (TED LZY)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 02 Apr 2021 14:35:33 +0800</lastBuildDate>
+    
+        <atom:link href="https://Ted-L.github.io/en/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Finance101_basicConcept</title>
+        <link>https://Ted-L.github.io/en/posts/finance101_basicconcept/</link>
+        <pubDate>Fri, 02 Apr 2021 14:35:33 +0800</pubDate>
+        <author>tedliuzy@hotmail.com (TED LZY)</author>
+        <atom:modified>Fri, 02 Apr 2021 14:35:33 +0800</atom:modified>
+        <guid>https://Ted-L.github.io/en/posts/finance101_basicconcept/</guid>
+        <description>Basic finance and accouting fundamentals and concepts  The title starting with &amp;ldquo;Finance101_xxx&amp;rdquo; relates to the financial knowledges and skills learnt during schools&#39; accounting and finance modules, as well as other knowledges picked up during daily life
+ Accouting system  Financial accouting Managerial accouting Tax  Key financial statements  Balance sheet Income statement Cash flow statement  Singapore finance reporting system (SFRS) based on the International Financial Reporting Standards (IFRS).</description>
+        
+        <dc:creator>TED LZY</dc:creator>
+        <media:content url="https://Ted-L.github.io/images/organization/dollarSign.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+          
+            
+              <category>work</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

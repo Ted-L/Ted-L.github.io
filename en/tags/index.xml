@@ -14,11 +14,29 @@
     <managingEditor>tedliuzy@hotmail.com (TED LZY)</managingEditor>
     <webMaster>tedliuzy@hotmail.com (TED LZY)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 25 Jan 2020 06:40:51 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 23 Apr 2021 16:30:14 +0800</lastBuildDate>
     
         <atom:link href="https://Ted-L.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>volunteer</title>
+        <link>https://Ted-L.github.io/en/tags/volunteer/</link>
+        <pubDate>Fri, 23 Apr 2021 16:30:14 +0800</pubDate>
+        <author>tedliuzy@hotmail.com (TED LZY)</author>
+        
+        <guid>https://Ted-L.github.io/en/tags/volunteer/</guid>
+        <description></description>
+        
+        <dc:creator>TED LZY</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>shortcode</title>
@@ -81,186 +99,6 @@
         <author>tedliuzy@hotmail.com (TED LZY)</author>
         
         <guid>https://Ted-L.github.io/en/tags/markdown/</guid>
-        <description></description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>themes</title>
-        <link>https://Ted-L.github.io/en/tags/themes/</link>
-        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        
-        <guid>https://Ted-L.github.io/en/tags/themes/</guid>
-        <description></description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>privacy</title>
-        <link>https://Ted-L.github.io/en/tags/privacy/</link>
-        <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        
-        <guid>https://Ted-L.github.io/en/tags/privacy/</guid>
-        <description></description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>shortcodes</title>
-        <link>https://Ted-L.github.io/en/tags/shortcodes/</link>
-        <pubDate>Thu, 19 Dec 2019 12:00:06 +0900</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        
-        <guid>https://Ted-L.github.io/en/tags/shortcodes/</guid>
-        <description></description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>hugo</title>
-        <link>https://Ted-L.github.io/en/tags/hugo/</link>
-        <pubDate>Wed, 18 Dec 2019 10:33:41 +0900</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        
-        <guid>https://Ted-L.github.io/en/tags/hugo/</guid>
-        <description></description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>amoji</title>
-        <link>https://Ted-L.github.io/en/tags/amoji/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        
-        <guid>https://Ted-L.github.io/en/tags/amoji/</guid>
-        <description></description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>bamoji</title>
-        <link>https://Ted-L.github.io/en/tags/bamoji/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        
-        <guid>https://Ted-L.github.io/en/tags/bamoji/</guid>
-        <description></description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>emoji</title>
-        <link>https://Ted-L.github.io/en/tags/emoji/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        
-        <guid>https://Ted-L.github.io/en/tags/emoji/</guid>
-        <description></description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>gamoji</title>
-        <link>https://Ted-L.github.io/en/tags/gamoji/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        
-        <guid>https://Ted-L.github.io/en/tags/gamoji/</guid>
-        <description></description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>namoji</title>
-        <link>https://Ted-L.github.io/en/tags/namoji/</link>
-        <pubDate>Mon, 16 Dec 2019 12:00:06 +0900</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        
-        <guid>https://Ted-L.github.io/en/tags/namoji/</guid>
-        <description></description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>diagram</title>
-        <link>https://Ted-L.github.io/en/tags/diagram/</link>
-        <pubDate>Sun, 17 Nov 2019 12:00:06 +0900</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        
-        <guid>https://Ted-L.github.io/en/tags/diagram/</guid>
         <description></description>
         
         <dc:creator>TED LZY</dc:creator>

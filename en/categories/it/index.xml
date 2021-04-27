@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>IT on Ted L&#39;s blog</title>
+    <link>https://Ted-L.github.io/en/categories/it/</link>
+    <description>Recent content in IT on Ted L&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>tedliuzy@hotmail.com (TED LZY)</managingEditor>
+    <webMaster>tedliuzy@hotmail.com (TED LZY)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 25 Jan 2020 06:40:51 +0900</lastBuildDate>
+    
+        <atom:link href="https://Ted-L.github.io/en/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Shortcodes example</title>
+        <link>https://Ted-L.github.io/en/posts/shortcodes/</link>
+        <pubDate>Sat, 25 Jan 2020 06:40:51 +0900</pubDate>
+        <author>tedliuzy@hotmail.com (TED LZY)</author>
+        <atom:modified>Sat, 25 Jan 2020 06:40:51 +0900</atom:modified>
+        <guid>https://Ted-L.github.io/en/posts/shortcodes/</guid>
+        <description>Markdownify box This is boxmd shortcode, the markdown syntax works here Simple box This is **box** shortcode, markdown syntax doesn&#39;t work here  Code tabs Make it easy to switch between different code
+java javascript  1  System.out.println(&amp;#39;Hello World!&amp;#39;);     1  console.log(&amp;#39;Hello World!&amp;#39;);       &#39;use strict&#39;; var containerId = JSON.parse(&#34;\&#34;59ff937268b16f1f\&#34;&#34;); var containerElem = document.getElementById(containerId); var codetabLinks = null; var codetabContents = null; var ids = []; if (containerElem) { codetabLinks = containerElem.</description>
+        
+        <dc:creator>TED LZY</dc:creator>
+        <media:content url="https://Ted-L.github.io/images/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>shortcode</category>
+            
+          
+        
+        
+          
+            
+              <category>IT</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Markdown Syntax Guide</title>
+        <link>https://Ted-L.github.io/en/posts/markdown-syntax/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>tedliuzy@hotmail.com (TED LZY)</author>
+        <atom:modified>Fri, 20 Dec 2019 12:00:06 +0900</atom:modified>
+        <guid>https://Ted-L.github.io/en/posts/markdown-syntax/</guid>
+        <description>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
+H1 H2 H3 H4 H5 H6 Paragraph This is the first paragraph.
+Now this is the second paragraph.</description>
+        
+        <dc:creator>TED LZY</dc:creator>
+        <media:content url="https://Ted-L.github.io/images/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>markdown</category>
+            
+          
+            
+              <category>css</category>
+            
+          
+            
+              <category>html</category>
+            
+          
+        
+        
+          
+            
+              <category>IT</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

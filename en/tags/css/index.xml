@@ -27,9 +27,12 @@
         <author>tedliuzy@hotmail.com (TED LZY)</author>
         <atom:modified>Fri, 20 Dec 2019 12:00:06 +0900</atom:modified>
         <guid>https://Ted-L.github.io/en/posts/markdown-syntax/</guid>
-        <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+        <description>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
+H1 H2 H3 H4 H5 H6 Paragraph This is the first paragraph.
+Now this is the second paragraph.</description>
         
-        <dc:creator>Choi</dc:creator>
+        <dc:creator>TED LZY</dc:creator>
         <media:content url="https://Ted-L.github.io/images/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
@@ -47,28 +50,14 @@
               <category>html</category>
             
           
-            
-              <category>themes</category>
-            
-          
         
         
           
             
-              <category>themes</category>
-            
-          
-            
-              <category>syntax</category>
+              <category>IT</category>
             
           
         
-        
-          
-            
-              <category>Themes Guide</category>
-            
-          
         
       </item>
       
