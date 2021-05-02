@@ -55,16 +55,6 @@
   <url>
     <loc>https://Ted-L.github.io/en/posts/</loc>
     <lastmod>2021-04-23T16:30:14+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://Ted-L.github.io/ko/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://Ted-L.github.io/en/posts/"
-                />
   </url>
   
   <url>
@@ -165,46 +155,16 @@
   <url>
     <loc>https://Ted-L.github.io/en/gallery/cartoon/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://Ted-L.github.io/ko/gallery/cartoon/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://Ted-L.github.io/en/gallery/cartoon/"
-                />
   </url>
   
   <url>
     <loc>https://Ted-L.github.io/en/gallery/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://Ted-L.github.io/ko/gallery/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://Ted-L.github.io/en/gallery/"
-                />
   </url>
   
   <url>
     <loc>https://Ted-L.github.io/en/gallery/photo/</loc>
     <lastmod>2019-10-31T10:20:16+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://Ted-L.github.io/ko/gallery/photo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://Ted-L.github.io/en/gallery/photo/"
-                />
   </url>
   
   <url>
@@ -235,31 +195,11 @@
   <url>
     <loc>https://Ted-L.github.io/en/archive/</loc>
     <lastmod>2019-10-19T11:44:14+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://Ted-L.github.io/ko/archive/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://Ted-L.github.io/en/archive/"
-                />
   </url>
   
   <url>
     <loc>https://Ted-L.github.io/en/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="https://Ted-L.github.io/ko/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://Ted-L.github.io/en/about/"
-                />
   </url>
   
   <url>
