@@ -173,6 +173,25 @@ Now this is the second paragraph.</description>
         
       </item>
       
+      <item>
+        <title>About</title>
+        <link>https://Ted-L.github.io/en/about/</link>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+        <author>tedliuzy@hotmail.com (TED LZY)</author>
+        <atom:modified>Thu, 28 Feb 2019 00:00:00 +0000</atom:modified>
+        <guid>https://Ted-L.github.io/en/about/</guid>
+        <description>This website is a blog, also serves as a Curriculum vitae, I will also share some basic understading related but not limited to software, IT, finance, etc,. Will also share some books read. The website is for archive purspose as well, ignore the posts if you feel worthless to you, don&amp;rsquo;t waste your time on them. The purposes of this site summarize as followings:
+ Curriculum vitae Knowledge sharing Books sharing Archive  Want to learn more?</description>
+        
+        <dc:creator>TED LZY</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
 
     
   </channel>
