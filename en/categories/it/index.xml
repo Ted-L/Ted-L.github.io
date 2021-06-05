@@ -14,11 +14,35 @@
     <managingEditor>tedliuzy@hotmail.com (TED LZY)</managingEditor>
     <webMaster>tedliuzy@hotmail.com (TED LZY)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 25 Jan 2020 06:40:51 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jun 2021 20:32:01 +0800</lastBuildDate>
     
         <atom:link href="https://Ted-L.github.io/en/categories/it/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Git_Ci_Cd</title>
+        <link>https://Ted-L.github.io/en/posts/git_ci_cd/</link>
+        <pubDate>Sat, 05 Jun 2021 20:32:01 +0800</pubDate>
+        <author>tedliuzy@hotmail.com (TED LZY)</author>
+        <atom:modified>Sat, 05 Jun 2021 20:32:01 +0800</atom:modified>
+        <guid>https://Ted-L.github.io/en/posts/git_ci_cd/</guid>
+        <description>Git command share and CI/CD introduction Git introduction  Git is a distributed version control concept, comparing with tranditional version control like subversion, it has some advantages:  Local repository More efficient Better collaboration abilities Non-linearly workflow, continuous integration   Git also has some disadvantage from what I think:  More steep learning curve Local saved files may be easily lost than keep in centralised server Illegal operation may cause problem for others to collaboration    Git command share Custom commit template  Create a template file  ~/.</description>
+        
+        <dc:creator>TED LZY</dc:creator>
+        <media:content url="https://Ted-L.github.io/images/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+          
+            
+              <category>IT</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Shortcodes example</title>
