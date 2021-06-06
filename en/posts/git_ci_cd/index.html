@@ -1682,7 +1682,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Jun 5, 2021 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
   
   &nbsp;&middot;&nbsp; <span class="single__info" title="WRITTEN BY">🤖&nbsp;TED LZY</span>
   
@@ -1710,21 +1710,35 @@
   <div class="expand__content expand__content--toc">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#git-introduction">Git introduction</a></li>
-    <li><a href="#git-command-share">Git command share</a>
+    <li><a href="#git-introduction">Git introduction</a>
       <ul>
-        <li><a href="#custom-commit-template">Custom commit template</a></li>
-        <li><a href="#amend-a-commit">Amend a Commit</a></li>
-        <li><a href="#advanced-git-log">Advanced Git Log</a></li>
-        <li><a href="#list-branch">List Branch</a></li>
-        <li><a href="#sort-branch">Sort Branch</a></li>
-        <li><a href="#tag">Tag</a></li>
-        <li><a href="#note">Note</a></li>
-        <li><a href="#remote-repository">Remote Repository</a></li>
-        <li><a href="#git-for-software-version">Git for Software Version</a></li>
+        <li><a href="#git-command-share">Git command share</a>
+          <ul>
+            <li><a href="#custom-commit-template">Custom commit template</a></li>
+          </ul>
+        </li>
+        <li><a href="#amend-a-commit">Amend a Commit</a>
+          <ul>
+            <li><a href="#advanced-git-log">Advanced Git Log</a></li>
+            <li><a href="#list-branch">List Branch</a></li>
+            <li><a href="#sort-branch">Sort Branch</a></li>
+            <li><a href="#tag">Tag</a></li>
+            <li><a href="#note">Note</a></li>
+            <li><a href="#remote-repository">Remote Repository</a></li>
+            <li><a href="#git-for-software-version">Git for Software Version</a></li>
+          </ul>
+        </li>
+        <li><a href="#gerrit-introduction">Gerrit introduction</a>
+          <ul>
+            <li><a href="#gerrit-architecture">Gerrit architecture</a></li>
+            <li><a href="#gerrit-user-configuration">Gerrit user configuration</a></li>
+          </ul>
+        </li>
+        <li><a href="#gerrit--jenkins-workflow">Gerrit + Jenkins Workflow</a></li>
+        <li><a href="#gerrit-roles-definition">Gerrit Roles definition</a></li>
       </ul>
     </li>
-    <li><a href="#gerrit-introduction">Gerrit introduction</a></li>
+    <li><a href="#summary">Summary</a></li>
   </ul>
 </nav>
   </div>
@@ -1749,8 +1763,8 @@
 </ul>
 </li>
 </ul>
-<h2 id="git-command-share">Git command share</h2>
-<h3 id="custom-commit-template">Custom commit template</h3>
+<h3 id="git-command-share">Git command share</h3>
+<h4 id="custom-commit-template">Custom commit template</h4>
 <ul>
 <li>Create a template file
 <ul>
@@ -1796,7 +1810,7 @@ JIRA: <key></p>
 <p>Note: amended commit has different commit-id</p>
 </li>
 </ul>
-<h3 id="advanced-git-log">Advanced Git Log</h3>
+<h4 id="advanced-git-log">Advanced Git Log</h4>
 <ul>
 <li>
 <p>Author, committer ma be different</p>
@@ -1823,7 +1837,7 @@ JIRA: <key></p>
 </ul>
 </li>
 </ul>
-<h3 id="list-branch">List Branch</h3>
+<h4 id="list-branch">List Branch</h4>
 <ul>
 <li>
 <p>List available branches</p>
@@ -1838,7 +1852,7 @@ JIRA: <key></p>
 </ul>
 </li>
 </ul>
-<h3 id="sort-branch">Sort Branch</h3>
+<h4 id="sort-branch">Sort Branch</h4>
 <ul>
 <li>
 <p>Sort branch by committer date</p>
@@ -1854,7 +1868,7 @@ JIRA: <key></p>
 </ul>
 </li>
 </ul>
-<h3 id="tag">Tag</h3>
+<h4 id="tag">Tag</h4>
 <ul>
 <li>
 <p>Tag is <strong>read-only</strong> commit reference</p>
@@ -1882,7 +1896,7 @@ JIRA: <key></p>
 </ul>
 </li>
 </ul>
-<h3 id="note">Note</h3>
+<h4 id="note">Note</h4>
 <ul>
 <li>
 <p>Add or inspect notes to commits</p>
@@ -1921,7 +1935,7 @@ JIRA: <key></p>
 </ul>
 </li>
 </ul>
-<h3 id="remote-repository">Remote Repository</h3>
+<h4 id="remote-repository">Remote Repository</h4>
 <ul>
 <li>
 <p>Add a remote repository</p>
@@ -1948,7 +1962,7 @@ JIRA: <key></p>
 </ul>
 </li>
 </ul>
-<h3 id="git-for-software-version">Git for Software Version</h3>
+<h4 id="git-for-software-version">Git for Software Version</h4>
 <ul>
 <li>
 <p>Git-describe</p>
@@ -1973,7 +1987,7 @@ JIRA: <key></p>
 </ul>
 </li>
 </ul>
-<h2 id="gerrit-introduction">Gerrit introduction</h2>
+<h3 id="gerrit-introduction">Gerrit introduction</h3>
 <ul>
 <li>
 <p>Gerrit is a free &amp; web-based team code collaboration tool</p>
@@ -1988,6 +2002,50 @@ JIRA: <key></p>
 <li>central git repositoies</li>
 <li>code review &amp; discuss</li>
 <li>easy Henkins integration</li>
+</ul>
+</li>
+</ul>
+<h4 id="gerrit-architecture">Gerrit architecture</h4>
+<p><img src="/Users/localadmin/tedblog/static/images/it_symbol/gerritArchitecture.png" alt="GA" /></p>
+<h4 id="gerrit-user-configuration">Gerrit user configuration</h4>
+<h5 id="ssh-configuration">SSH Configuration</h5>
+<ul>
+<li>Generate <strong>ssh rsa key pair</strong> for Gerrit git repositories</li>
+</ul>
+<blockquote>
+<p>ssh-keygen</p>
+</blockquote>
+<p>-Edit <strong>.ssh/config</strong> to sepecify <strong>user &amp; private key</strong></p>
+<h5 id="user-configuration">User Configuration</h5>
+<ul>
+<li>Sign-in Gerrit server through http -&gt; Setting</li>
+</ul>
+<h3 id="gerrit--jenkins-workflow">Gerrit + Jenkins Workflow</h3>
+<ul>
+<li>Jenkins: continuous integrating changes
+<ul>
+<li>auto build, analysis, test: <strong>verify +-1</strong></li>
+</ul>
+</li>
+</ul>
+<p><img src="/Users/localadmin/tedblog/static/images/it_symbol/gerritJenkins.png" alt="gerritJenkins" /></p>
+<h3 id="gerrit-roles-definition">Gerrit Roles definition</h3>
+<p><img src="/Users/localadmin/tedblog/static/images/it_symbol/gerritRoles.png" alt="gerritRoles" /></p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Gerrit - a key component for SDLC
+<ul>
+<li>for efficient software development
+<ul>
+<li>central Git repositories with access control</li>
+</ul>
+</li>
+<li>for better software quality
+<ul>
+<li>code review &amp; discuss</li>
+<li>Jenkins integration (auto test/analysis)</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -2682,21 +2740,35 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc hide" data-dir="ltr" data-folding="true" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#git-introduction">Git introduction</a></li>
-    <li><a href="#git-command-share">Git command share</a>
+    <li><a href="#git-introduction">Git introduction</a>
       <ul>
-        <li><a href="#custom-commit-template">Custom commit template</a></li>
-        <li><a href="#amend-a-commit">Amend a Commit</a></li>
-        <li><a href="#advanced-git-log">Advanced Git Log</a></li>
-        <li><a href="#list-branch">List Branch</a></li>
-        <li><a href="#sort-branch">Sort Branch</a></li>
-        <li><a href="#tag">Tag</a></li>
-        <li><a href="#note">Note</a></li>
-        <li><a href="#remote-repository">Remote Repository</a></li>
-        <li><a href="#git-for-software-version">Git for Software Version</a></li>
+        <li><a href="#git-command-share">Git command share</a>
+          <ul>
+            <li><a href="#custom-commit-template">Custom commit template</a></li>
+          </ul>
+        </li>
+        <li><a href="#amend-a-commit">Amend a Commit</a>
+          <ul>
+            <li><a href="#advanced-git-log">Advanced Git Log</a></li>
+            <li><a href="#list-branch">List Branch</a></li>
+            <li><a href="#sort-branch">Sort Branch</a></li>
+            <li><a href="#tag">Tag</a></li>
+            <li><a href="#note">Note</a></li>
+            <li><a href="#remote-repository">Remote Repository</a></li>
+            <li><a href="#git-for-software-version">Git for Software Version</a></li>
+          </ul>
+        </li>
+        <li><a href="#gerrit-introduction">Gerrit introduction</a>
+          <ul>
+            <li><a href="#gerrit-architecture">Gerrit architecture</a></li>
+            <li><a href="#gerrit-user-configuration">Gerrit user configuration</a></li>
+          </ul>
+        </li>
+        <li><a href="#gerrit--jenkins-workflow">Gerrit + Jenkins Workflow</a></li>
+        <li><a href="#gerrit-roles-definition">Gerrit Roles definition</a></li>
       </ul>
     </li>
-    <li><a href="#gerrit-introduction">Gerrit introduction</a></li>
+    <li><a href="#summary">Summary</a></li>
   </ul>
 </nav>
   </div>
