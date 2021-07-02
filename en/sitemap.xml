@@ -48,12 +48,12 @@
   </url>
   
   <url>
-    <loc>https://Ted-L.github.io/en/categories/it/</loc>
+    <loc>https://Ted-L.github.io/en/posts/</loc>
     <lastmod>2021-06-05T20:32:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Ted-L.github.io/en/posts/</loc>
+    <loc>https://Ted-L.github.io/en/categories/work/</loc>
     <lastmod>2021-06-05T20:32:01+08:00</lastmod>
   </url>
   
@@ -98,17 +98,17 @@
   </url>
   
   <url>
+    <loc>https://Ted-L.github.io/en/tags/finance/</loc>
+    <lastmod>2021-04-02T14:35:33+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Ted-L.github.io/en/posts/finance101_basicconcept/</loc>
     <lastmod>2021-04-02T14:35:33+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://Ted-L.github.io/en/posts/propertyapproach/</loc>
-    <lastmod>2021-04-02T14:35:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Ted-L.github.io/en/categories/work/</loc>
     <lastmod>2021-04-02T14:35:33+08:00</lastmod>
   </url>
   
@@ -219,6 +219,11 @@
   
   <url>
     <loc>https://Ted-L.github.io/en/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Ted-L.github.io/en/resume/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   

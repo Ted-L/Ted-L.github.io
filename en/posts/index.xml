@@ -37,7 +37,7 @@
         
           
             
-              <category>IT</category>
+              <category>work</category>
             
           
         
@@ -150,6 +150,12 @@
         
         
         
+          
+            
+              <category>finance</category>
+            
+          
+        
         
           
             
@@ -175,10 +181,16 @@
         
         
         
+          
+            
+              <category>finance</category>
+            
+          
+        
         
           
             
-              <category>life</category>
+              <category>work</category>
             
           
         
@@ -209,7 +221,7 @@ java javascript  1  System.out.println(&amp;#39;Hello World!&amp;#39;);     1  c
         
           
             
-              <category>IT</category>
+              <category>work</category>
             
           
         
@@ -254,7 +266,7 @@ Now this is the second paragraph.</description>
         
           
             
-              <category>IT</category>
+              <category>work</category>
             
           
         

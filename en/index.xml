@@ -58,7 +58,7 @@
         
           
             
-              <category>IT</category>
+              <category>work</category>
             
           
         
@@ -171,6 +171,12 @@
         
         
         
+          
+            
+              <category>finance</category>
+            
+          
+        
         
           
             
@@ -196,10 +202,16 @@
         
         
         
+          
+            
+              <category>finance</category>
+            
+          
+        
         
           
             
-              <category>life</category>
+              <category>work</category>
             
           
         
@@ -230,7 +242,7 @@ java javascript  1  System.out.println(&amp;#39;Hello World!&amp;#39;);     1  c
         
           
             
-              <category>IT</category>
+              <category>work</category>
             
           
         
@@ -275,7 +287,7 @@ Now this is the second paragraph.</description>
         
           
             
-              <category>IT</category>
+              <category>work</category>
             
           
         
@@ -291,6 +303,25 @@ Now this is the second paragraph.</description>
         <guid>https://Ted-L.github.io/en/about/</guid>
         <description>This website is a blog, also serves as a Curriculum vitae, I will also share some basic understading related but not limited to software, IT, finance, etc,. Will also share some books read. The website is for archive purspose as well, ignore the posts if you feel worthless to you, don&amp;rsquo;t waste your time on them. The purposes of this site summarize as followings:
  Curriculum vitae Knowledge sharing Books sharing Archive  Want to learn more?</description>
+        
+        <dc:creator>TED LZY</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Resume</title>
+        <link>https://Ted-L.github.io/en/resume/</link>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+        <author>tedliuzy@hotmail.com (TED LZY)</author>
+        <atom:modified>Thu, 28 Feb 2019 00:00:00 +0000</atom:modified>
+        <guid>https://Ted-L.github.io/en/resume/</guid>
+        <description>(TED) LIU Ziying E-mail: tedliuzy@hotmail.com Linkedin: http://www.linkedin.com/in/ted-liu-ziying
+TECHNICAL SKILLS/ADDITIONAL SKILLS  Programming languages: C, Python, Android, DOS, Bash, Tcl, JAVA Script, HTML, Verilog. Won Inaugural Singapore Android Developer Challenge 2010 2nd place. Communication Protocol: IEEE802.11, IEEE802.11s, EasyMesh, TCP/IP, Opencapwap, WiFi6, RS232/485, Bluetooth, Zigbee. Simulation Software: Matlab, LTSpice, ANSYS, Mathematica. Source control and quality control: SVN, Git, Gerrit, Jenkins, WIKI, JIRA. Business knowledge: High-tech marketing and innovation management, Knowledge management, Human management, Engineering accouting, Financial report and accounting, Enterprise development.</description>
         
         <dc:creator>TED LZY</dc:creator>
         
