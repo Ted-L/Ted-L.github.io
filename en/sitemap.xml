@@ -14,7 +14,7 @@
   
   <url>
     <loc>https://Ted-L.github.io/en/</loc>
-    <lastmod>2021-06-05T20:32:01+08:00</lastmod>
+    <lastmod>2021-08-08T13:51:40+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -29,7 +29,7 @@
   
   <url>
     <loc>https://Ted-L.github.io/en/categories/</loc>
-    <lastmod>2021-06-05T20:32:01+08:00</lastmod>
+    <lastmod>2021-08-08T13:51:40+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -43,33 +43,23 @@
   </url>
   
   <url>
-    <loc>https://Ted-L.github.io/en/posts/git_ci_cd/</loc>
-    <lastmod>2021-06-05T20:32:01+08:00</lastmod>
+    <loc>https://Ted-L.github.io/en/categories/life/</loc>
+    <lastmod>2021-08-08T13:51:40+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Ted-L.github.io/en/posts/sgcare_week06_15/</loc>
+    <lastmod>2021-08-08T13:51:40+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://Ted-L.github.io/en/posts/</loc>
-    <lastmod>2021-06-05T20:32:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Ted-L.github.io/en/categories/work/</loc>
-    <lastmod>2021-06-05T20:32:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Ted-L.github.io/en/categories/life/</loc>
-    <lastmod>2021-06-05T19:51:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Ted-L.github.io/en/posts/sgcare_week04_05/</loc>
-    <lastmod>2021-06-05T19:51:40+08:00</lastmod>
+    <lastmod>2021-08-08T13:51:40+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://Ted-L.github.io/en/tags/</loc>
-    <lastmod>2021-06-05T19:51:40+08:00</lastmod>
+    <lastmod>2021-08-08T13:51:40+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
@@ -84,6 +74,21 @@
   
   <url>
     <loc>https://Ted-L.github.io/en/tags/volunteer/</loc>
+    <lastmod>2021-08-08T13:51:40+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Ted-L.github.io/en/posts/git_ci_cd/</loc>
+    <lastmod>2021-06-05T20:32:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Ted-L.github.io/en/categories/work/</loc>
+    <lastmod>2021-06-05T20:32:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Ted-L.github.io/en/posts/sgcare_week04_05/</loc>
     <lastmod>2021-06-05T19:51:40+08:00</lastmod>
   </url>
   
