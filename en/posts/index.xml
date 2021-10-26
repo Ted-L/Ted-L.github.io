@@ -14,11 +14,37 @@
     <managingEditor>tedliuzy@hotmail.com (TED LZY)</managingEditor>
     <webMaster>tedliuzy@hotmail.com (TED LZY)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 08 Aug 2021 13:51:40 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Oct 2021 23:07:14 +0800</lastBuildDate>
     
         <atom:link href="https://Ted-L.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Rsnapshot</title>
+        <link>https://Ted-L.github.io/en/posts/rsnapshot/</link>
+        <pubDate>Tue, 26 Oct 2021 23:07:14 +0800</pubDate>
+        <author>tedliuzy@hotmail.com (TED LZY)</author>
+        <atom:modified>Tue, 26 Oct 2021 23:07:14 +0800</atom:modified>
+        <guid>https://Ted-L.github.io/en/posts/rsnapshot/</guid>
+        <description>Background  Rsnapshot is a rsync based utility, as the name suggests, it can take the snapshot of the filesystem at the moment, the backup disk size is made up only with the size of filesystem and the differences between different snapshots.
+The OS I was using is Linux CentOS then, simliar steps should be followed across different OS.
+Follow the steps below to get the utility running and monitor the file generate after the set scheduled time.</description>
+        
+        <dc:creator>TED LZY</dc:creator>
+        <media:content url="https://Ted-L.github.io/images/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+          
+            
+              <category>work</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>PLSE_Math_week06_15</title>
