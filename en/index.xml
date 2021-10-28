@@ -14,7 +14,7 @@
     <managingEditor>tedliuzy@hotmail.com (TED LZY)</managingEditor>
     <webMaster>tedliuzy@hotmail.com (TED LZY)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 26 Oct 2021 23:07:14 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 29 Oct 2021 01:40:50 +0800</lastBuildDate>
     
         <atom:link href="https://Ted-L.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,30 @@
         
       
 
+      
+      <item>
+        <title>Mesh</title>
+        <link>https://Ted-L.github.io/en/posts/mesh/</link>
+        <pubDate>Fri, 29 Oct 2021 01:40:50 +0800</pubDate>
+        <author>tedliuzy@hotmail.com (TED LZY)</author>
+        <atom:modified>Fri, 29 Oct 2021 01:40:50 +0800</atom:modified>
+        <guid>https://Ted-L.github.io/en/posts/mesh/</guid>
+        <description>What&amp;rsquo;s mesh? Mesh overview  IEEE published the 802.11 amendment for mesh networking, 802.11s, primary goal is targeted to provide more stable better performance for the whole network using more &amp;lsquo;connected nodes&amp;rsquo;. The entire wireless mesh could be treated as a single (giant) Ethernet switch.     Mesh advantages: simple, fast installation, more suitable for the application:  Where wires are not desired (e.g., hotels, airports) Where wires are impossible (e.</description>
+        
+        <dc:creator>TED LZY</dc:creator>
+        <media:content url="https://Ted-L.github.io/images/feature3/code-file.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+          
+            
+              <category>work</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>Rsnapshot</title>
