@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.1618c696be7c98933f9a92677f518b512a74e55bdbb976b09936b4182e93181b.js"></script>
+<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.efa35f4c090622130b3f4cfae6971448b5ffb61c5f0a8f21cdfd157fa712abc4.js"></script>
+<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1349,7 +1349,7 @@
     <meta property="twitter:description" content="Rsnapshot utility installation guide">
   
 
-<meta name="generator" content="Hugo 0.80.0" />
+<meta name="generator" content="Hugo 0.89.4" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1738,16 +1738,16 @@ Follow the steps below to get the utility running and monitor the file generate 
 <h4 id="how-to-backup-local">How to backup local</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">apt-get install rsnapshot 
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">apt-get install rsnapshot 
 </code></pre></td></tr></table>
 </div>
 </div><p>Run the following command to verify</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -1755,7 +1755,7 @@ Follow the steps below to get the utility running and monitor the file generate 
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">rsnapshot configtest 
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">rsnapshot configtest 
 rsnapshot hourly 
 rsnapshot du 
 rsnapshot hourly 
@@ -1766,32 +1766,32 @@ rsnapshot-diff hourly.0/ hourly.1/
 </div><p>Test the installations and manually run the back up</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">rsnapshot -t hourly
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">rsnapshot -t hourly
 </code></pre></td></tr></table>
 </div>
 </div><p>Use crontab to check automatically run rsnapshot</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">cat /etc/cron.d/rsnapshot 
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">cat /etc/cron.d/rsnapshot 
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="how-to-backup-remote">How to backup remote</h4>
 <h5 id="enable-ssh-login-without-password-in-both-servers-just-for-reference-the-user-account-information-may-vary-according-to-different-users-and-systems">Enable SSH login without password in both servers (just for reference, the user account information may vary according to different users and systems)</h5>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">su rtksd8
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">su rtksd8
 ssh-keygen -t rsa
 ssh ted@172.25.22.10 mkdir -p .ssh
 cat id_rsa.pub <span class="p">|</span> ssh ted@172.25.22.10 <span class="s1">&#39;cat &gt;&gt; .ssh/authorized_keys&#39;</span> 
@@ -1809,10 +1809,10 @@ cat id_rsa.pub <span class="p">|</span> ssh ted@172.25.22.10 <span class="s1">&#
 </figure>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">ssh ted@172.25.22.10 <span class="s2">&#34;chmod 700 .ssh; chmod 640 .ssh/authorized_keys&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">ssh ted@172.25.22.10 <span class="s2">&#34;chmod 700 .ssh; chmod 640 .ssh/authorized_keys&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><figure >
@@ -1829,35 +1829,35 @@ cat id_rsa.pub <span class="p">|</span> ssh ted@172.25.22.10 <span class="s1">&#
 <p>Also uncomment the “cmd_ssh” line to allow to take remote backups over SSH.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">cmd_ssh                /usr/bin/ssh
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">cmd_ssh                /usr/bin/ssh
 </code></pre></td></tr></table>
 </div>
 </div><p>One more thing you need to edit is “ssh_args” variable. If you have changed the default SSH Port (22) to something else, you need to specify that port number of your remote backing up server.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">ssh_args               -p <span class="m">7851</span>
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">ssh_args               -p <span class="m">7851</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Backup Remote Directories</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">backup          root@example.com:/home/              /data/backup/
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">backup          root@example.com:/home/              /data/backup/
 </code></pre></td></tr></table>
 </div>
 </div><h4 id="run-the-backup-process-automatically">Run the backup process automatically</h4>
 <h5 id="edit-file-rsnapshot">Edit file rsnapshot</h5>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1872,7 +1872,7 @@ cat id_rsa.pub <span class="p">|</span> ssh ted@172.25.22.10 <span class="s1">&#
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">vi /etc/cron.d/rsnapshot
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">vi /etc/cron.d/rsnapshot
 
 <span class="c1"># This is a sample cron file for rsnapshot.</span>
 <span class="c1"># The values used correspond to the examples in /etc/rsnapshot.conf.</span>
@@ -1890,7 +1890,7 @@ cat id_rsa.pub <span class="p">|</span> ssh ted@172.25.22.10 <span class="s1">&#
 </div><h5 id="edit-file-rsnapshotconf">Edit file rsnapshot.conf</h5>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -1917,7 +1917,7 @@ cat id_rsa.pub <span class="p">|</span> ssh ted@172.25.22.10 <span class="s1">&#
 </span><span class="lnt">25
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">vi /etc/rsnapshot.conf
+<pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">vi /etc/rsnapshot.conf
 <span class="c1"># All snapshots will be stored under this root directory.</span>
 <span class="c1">#</span>
 snapshot_root   /mnt/sdb1/backup2210/
@@ -2340,7 +2340,7 @@ backup  root@172.25.22.10:/home/RTCN1912/               remote/
 </div>
 
 
-<script defer src="/js/swipe.min.b4b82839155519d9ca67746615a4c86ccbc1061c196fe6d8aa26e4fe22902718.js"></script>
+<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
