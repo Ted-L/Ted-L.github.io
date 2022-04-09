@@ -42,6 +42,25 @@
 
       
       <item>
+        <title>Resume</title>
+        <link>https://Ted-L.github.io/en/resume/</link>
+        <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+        <author>tedliuzy@hotmail.com (TED LZY)</author>
+        <atom:modified>Sat, 09 Apr 2022 00:00:00 +0000</atom:modified>
+        <guid>https://Ted-L.github.io/en/resume/</guid>
+        <description>(TED) LIU Ziying E-mail: tedliuzy@hotmail.com Linkedin: http://www.linkedin.com/in/ted-liu-ziying
+TECHNICAL SKILLS/ADDITIONAL SKILLS  Programming languages: C, Python, Android, DOS, Tcl, JAVA Script, Verilog. Won Inaugural Singapore Android Developer Challenge 2010 2nd place. Communication Protocol: IEEE802.11, IEEE802.11s, EasyMesh, TCP/IP, Opencapwap, WiFi6, RS232/485, Bluetooth, Zigbee. Simulation Software: Matlab, LTSpice, ANSYS, Mathematica. Source control and quality control: SVN, Git, Gerrit, Jenkins, CI/CD, WIKI, JIRA. Business knowledge: High-tech marketing and innovation management, Knowledge management, Human management, Engineering accounting, Financial report and accounting, Enterprise development.</description>
+        
+        <dc:creator>TED LZY</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>HomeuserWifiTest</title>
         <link>https://Ted-L.github.io/en/posts/homeuserwifitest/</link>
         <pubDate>Sun, 21 Nov 2021 12:35:19 +0800</pubDate>
@@ -413,25 +432,6 @@ Now this is the second paragraph.</description>
         <atom:modified>Thu, 28 Feb 2019 00:00:00 +0000</atom:modified>
         <guid>https://Ted-L.github.io/en/about/</guid>
         <description>Hello and welcome! This website is a blog, also serves as a Curriculum vitae. Lifelong learning is something I am passionate about, I always have the belief of more possibilities opened up when I learn more and everything is useful eventually in some way, I try to encourage myself to learn in a more organised manner and have a place to share some of the findings, so I will also share some basic understanding related but not limited to software, IT, finance, etc.</description>
-        
-        <dc:creator>TED LZY</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Resume</title>
-        <link>https://Ted-L.github.io/en/resume/</link>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-        <author>tedliuzy@hotmail.com (TED LZY)</author>
-        <atom:modified>Thu, 28 Feb 2019 00:00:00 +0000</atom:modified>
-        <guid>https://Ted-L.github.io/en/resume/</guid>
-        <description>(TED) LIU Ziying E-mail: tedliuzy@hotmail.com Linkedin: http://www.linkedin.com/in/ted-liu-ziying
-TECHNICAL SKILLS/ADDITIONAL SKILLS  Programming languages: C, Python, Android, DOS, Tcl, JAVA Script, Verilog. Won Inaugural Singapore Android Developer Challenge 2010 2nd place. Communication Protocol: IEEE802.11, IEEE802.11s, EasyMesh, TCP/IP, Opencapwap, WiFi6, RS232/485, Bluetooth, Zigbee. Simulation Software: Matlab, LTSpice, ANSYS, Mathematica. Source control and quality control: SVN, Git, Gerrit, Jenkins, CI/CD, WIKI, JIRA. Business knowledge: High-tech marketing and innovation management, Knowledge management, Human management, Engineering accounting, Financial report and accounting, Enterprise development.</description>
         
         <dc:creator>TED LZY</dc:creator>
         
