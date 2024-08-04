@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p><strong>(TED) LIU Ziying E-mail: tedliuzy@hotmail.com</strong> <strong>Linkedin: <a href="http://www.linkedin.com/in/ted-liu-ziying">http://www.linkedin.com/in/ted-liu-ziying</a></strong></p>
+<h4 id="technical-skillsadditional-skills">TECHNICAL SKILLS/ADDITIONAL SKILLS</h4>
+<ul>
+<li>Programming languages: C, Python, Android, DOS, Tcl, JAVA Script, Verilog. Won <em>Inaugural Singapore Android Developer Challenge 2010 2nd place</em>.</li>
+<li>Communication Protocol: IEEE802.11, IEEE802.11s, EasyMesh R1/2/3/4/5/6, TCP/IP, WiFi6/7, RS232/485, Bluetooth.</li>
+<li>Simulation Software: Matlab, LTSpice, ANSYS, Mathematica.</li>
+<li>Source control and quality control: Git, SVN, Gerrit, Jenkins, CI/CD, WIKI, JIRA.</li>
+<li>Business knowledge: High-tech marketing and innovation management, Knowledge management, Human management, Engineering accounting, Financial report and accounting, Enterprise development.</li>
+<li>Certificate: Linux, Redhat Certified Engineer (RHCE), CCNA, Tableu, Google Data Analytics, PMP, Scrum in Agile, Sprint, CFA candidate, CPR-AED certified, Internal Auditor.</li>
+</ul>
+<h4 id="work-experience">WORK EXPERIENCE</h4>
+<h5 id="realtek-singapore-pte-ltd---072014-to-present">Realtek Singapore Pte. Ltd - 07/2014 to Present</h5>
+<h6 id="team-leadhiring-manager---072018-to-present">Team lead/hiring manager - 07/2018 to Present</h6>
+<ul>
+<li>Lead and manage a team of 23 R&amp;D software engineers. Allocate resources for different projects and R&amp;D tasks, use Agile tools like CI/CD, JIRA to track progress, Jenkins and Gerrit for bug tracking and WIKI for knowledge management. Overview projects status and ensure always on-time delivery, guide members on designing code and bug fix, guide members during on-site support, etc. Serve as the bridge between the R&amp;D team with other internal teams as well as customers' teams.</li>
+<li>Handle all the team’s administrative tasks. Update status reports including company roadmap, team members' working status, team members' KPI evaluation, training programmes, etc. Attend career fairs and career talks to prompt company image for recruitment purpose. Source thousands of resumes and hired 5 to 10 every year, grow the team from 5 engineers to 23 in these years.</li>
+<li>Guide and assign jobs for the team, negotiate work contents, schedules, and deliverables. Check design document, test plan and user guide to ensure the product meets customer requirements and performance is one of the best in the industry.</li>
+<li>Review code, handle patent design discussion, review and application for the team members. Apply around 3 patents every year.</li>
+<li>Overview and help to improve team's performance and the individuals’ performance. Lead by example to inspire teammates to achieve good targets. Host training and maintain WIKI knowledge sharing portals to help teammates' growth. Organise team-building activities once a few months to boost team morale. Maintain good team spirit by actively communicating with teammates.</li>
+<li>Negotiate and attend regular meetings with different stakeholders: product managers, project managers, sales/marketing representatives, different R&amp;D teams, field application engineers, etc. Collaborate with internal teams from Singapore, Taiwan, Shenzhen and Suzhou to fulfil customers needs.</li>
+<li>Maintain good relationships and cooperate with telco customers include: Singtel, China Mobile, China Telecom, China Unicom, Chuanghawa Telecom, NEC, Thai Telecom, Mexico Telecom etc; original design manufacture (ODM) customer includes: Huawei, ZTE, Xiaomi, Dlink, TP-Link, Fibrehome, Skyworth, HKVision, Tenda etc.</li>
+</ul>
+<h6 id="staff-software-engineer---072014-to-072018">Staff software engineer - 07/2014 to 07/2018</h6>
+<ul>
+<li>Handled technical R&amp;D jobs include WiFi protocol development, wireless driver, firmware and user space development, system porting and integration, etc.</li>
+<li>Ported EasyMesh code into different Linux architectures and modify the code to be compatible for both tri-band and dual-band AP routers.</li>
+<li>Developed  smart  roaming mesh function for Singtel home fibre mesh. Designed Auto Access Controller Selection protocol and implemented to meet various needs and rolled out to all customers: <a href="https://www.singtel.com/personal/products-services/broadband/wifimesh">https://www.singtel.com/personal/products-services/broadband/wifimesh</a>.</li>
+<li>Programmed Android APP for communication between Phone and AP, utilizing WiFi on UDP and Bluetooth communication protocols. Developed Network Attached Storage (NAS) solution and migrated into different Linux-based AP boards. It can serve as an AP router and NAS at the same time.</li>
+<li>Debugged local and overseas customer issues remotely and on-site to satisfy customers’ requirements, help customers to pass Telco's certificate and tender criteria. Demonstrated and discussed our product and solutions for potential customers to prompt our product.</li>
+<li>Wrote test cases, user guide, created automation CI/CD tools, set up an environment to test our AP with over 50 mobile clients and debug if any issues and evaluate performance. Set up Server and source control software Git/Gerrit, SVN and automated backup function for our team’s use, managed team members’ server accounts. Managed devices and subscription accounts for the team including research, negotiation, purchase and housekeeping.</li>
+</ul>
+<h5 id="australian-national-university-anu-researcher---122013-to-042014">Australian National University (ANU), Researcher - 12/2013 to 04/2014</h5>
+<ul>
+<li>Decoded and analysed packets getting from SMA solar panel inverter for utilisation.</li>
+<li>Worked with researchers from Australia's Information and Communications Technology (ICT) Research Centre of Excellence (NICTA) to design prototypes.</li>
+<li>Designed and developed a low-cost 3-G based PV data logger using Arduino. This project was undertaken to support the ANU/NICTA solar forecasting collaboration, &quot;machine-learning-based forecasting of distributed solar energy production&quot;.</li>
+<li>Wrote thesis on this project: <a href="https://www.nickengerer.org/student-projects">https://www.nickengerer.org/student-projects</a>.</li>
+</ul>
+<h5 id="syseng-s-pte-ltd-system-engineer---062010-to-012012">SysEng (S) Pte Ltd, System Engineer - 06/2010 to 01/2012</h5>
+<ul>
+<li>Designed and wrote code and deployed real-time monitoring systems for PUB, NEA: water-level monitor, water drain real-time CCTV monitor system, rooftop weather station etc.</li>
+<li>Designed the data logger to communicate with a variety of sensors and feedback to centralised server: <a href="https://app.pub.gov.sg/waterlevel/pages/WaterLevelSensors.aspx">https://app.pub.gov.sg/waterlevel/pages/WaterLevelSensors.aspx</a>.</li>
+<li>Led commission team to finish around 60 stations all over Singapore. Maintained the performance and arranged services afterwards. These projects are still working and more widely adopted in Singapore until now.</li>
+<li>Carried on publicity jobs for Singapore Machine to Machine (M2M) platform and Singapore Industrial Automation Association (SIAA), developed systems for demonstration and attended events and meetings for the promotion of industrial Internet of Things (IoT).</li>
+</ul>
+<h4 id="education">EDUCATION</h4>
+<ul>
+<li>National University of Singapore (NUS) - 08/2018 to 05/2020
+<em>Master of Science (Management of Technology), 2nd Upper Honour Class</em>.</li>
+<li>Australian National University (ANU) - 03/2012 to 03/2014<br>
+<em>Bachelor of Engineering (Electronics &amp; Communication), 2nd Upper Honour Class</em>.</li>
+<li>Singapore Polytechnics (SP) - 09/2007 to 06/2010<br>
+<em>Diploma in Engineering (Computer Engineering), Director's Honour List</em>.</li>
+</ul>
+<h4 id="personal-interests">PERSONAL INTERESTS</h4>
+<ul>
+<li>Sports: Mixed Martial Arts, boxing, Muay Thai, snooker, basketball, swimming. Member of Wing Chun Kuen Club, helped to organise some events like performances for the movie premiere &quot;IP Man&quot;.</li>
+<li>Volunteering job: coach PLSE MATH for low-income families’ kids and all increased more than 50% marks and passed the exam; teach elderly for computer literacy course.</li>
+<li>Creativity and innovative skills: Ceramic works, Singapore International Water festival, design and test a raft using recycled materials, won the third place in rafting.</li>
+<li>Leisure: reading (ave. one book per three weeks), lifelong learning, movie, cooking, travelling, conventions.</li>
+</ul>
+
+</body>
+</html>
